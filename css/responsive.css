@@ -1,0 +1,173 @@
+@media (max-width: 320px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .background{
+        width: 320px;
+        height: 500px;
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 290px;
+        height: 290px;
+    }
+
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .constrution__img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader{
+        margin-top: 350px;
+        width: 30px;
+        height: 30px;
+    }
+}
