@@ -54,7 +54,8 @@ h1,
 .logo__container,
 .logo,
 .loading__icon,
-.loader {
+.loader,
+.midias {
     display: flex;
     justify-content: center;
 }
@@ -62,7 +63,8 @@ h1,
 body,
 .title,
 .logo,
-.loader {
+.loader,
+.midias {
     align-items: center;
 }
 
@@ -78,7 +80,7 @@ body,
     gap: 1.875rem;
 }
 
-.title{
+.title {
     height: 0rem;
 }
 
@@ -123,4 +125,9 @@ h1 {
     height: 3.125rem;
     width: 3.125rem;
     animation: loading 1s ease-in-out infinite;
+}
+
+.midias {
+    gap: 2.5rem;
+    margin-top: -6rem;
 }

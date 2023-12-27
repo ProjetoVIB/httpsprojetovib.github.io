@@ -88,6 +88,10 @@
         width: 1.875rem;
         height: 1.875rem;
     }
+    
+    .midias{
+        margin-top: -4.75rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -110,6 +114,10 @@
     .loader {
         width: 1.875rem;
         height: 1.875rem;
+    }
+
+    .midias{
+        margin-top: -3.75rem;
     }
 }
 
@@ -156,5 +164,9 @@
     .loader {
         width: 1.875rem;
         height: 1.875rem;
+    }
+
+    .midias{
+        margin-top: -17.75rem;
     }
 }
