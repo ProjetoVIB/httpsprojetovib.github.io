@@ -1,172 +1,161 @@
 @media (max-width: 320px) {
-    .background{
+
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
+    .logo {
         width: 290px;
         height: 290px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }
 }
 
 @media (max-width: 375px) {
-    .background{
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
+    .logo {
         width: 290px;
         height: 290px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }
 }
 
 @media (max-width: 425px) {
-    .background{
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
+    .logo {
         width: 290px;
         height: 290px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }
 }
 
 @media (max-width: 768px) {
-    .background{
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
+    .logo {
         width: 290px;
         height: 290px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }
 }
 
-@media (max-width: 1024px) {
-    .background{
+@media (min-width: 1024px) {
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
-        width: 290px;
-        height: 290px;
+    .logo {
+        width: 1490px;
+        height: 490px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }
 }
 
 @media (max-width: 1440px) {
-    .background{
+    .background {
         width: 320px;
         height: 500px;
     }
 
-    .logo{
-        margin-top: 80px;
+    .logo {
         width: 290px;
         height: 290px;
     }
 
-    h1{
+    h1 {
         font-size: 23px;
         text-align: center;
     }
 
-    .constrution__img{
+    .constrution__img {
         width: 90px;
         height: 90px;
     }
 
-    .loader{
-        margin-top: 350px;
+    .loader {
         width: 30px;
         height: 30px;
     }

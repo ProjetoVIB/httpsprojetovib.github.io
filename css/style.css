@@ -11,15 +11,17 @@
 
 @keyframes blink {
     0% {
-      opacity: 1;
+        opacity: 1;
     }
+
     50% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
 
 .blink {
     animation: blink 2s infinite;
@@ -30,14 +32,17 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: grey;
+    background-color: black;
 }
 
 .site__status,
 .site__header,
 .constrution__img,
 h1,
-img {
+img,
+.loading__icon,
+.logo__container,
+.content__container {
     display: flex;
     justify-content: center;
 }
@@ -52,9 +57,12 @@ img {
 
 .site__header {
     justify-content: center;
-    gap: 25px;
-    padding-top: 50px;
     flex-direction: row;
+    height: 100vh;
+}
+
+.content__container {
+    flex-direction: column;
 }
 
 .title {
@@ -79,17 +87,14 @@ h1 {
     z-index: 1;
 }
 
-img {
-    position: absolute;
-    max-width: 1239px;
-    height: 589px;
+.loading__icon {
+    width: 100%;
 }
 
 .loader {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 400px;
     z-index: 2;
     height: 50px;
     width: 50px;
