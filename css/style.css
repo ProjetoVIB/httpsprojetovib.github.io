@@ -1,3 +1,5 @@
+/*============Configs Gerais============*/
+
 * {
     margin: 0;
     padding: 0;
@@ -33,11 +35,14 @@
     }
 }
 
+/*============Configs do Body============*/
+
 body {
-    align-items: center;
     flex-direction: column;
     background-color: black;
 }
+
+/*============Unificações============*/
 
 body,
 .site__header,
@@ -53,6 +58,15 @@ h1,
     display: flex;
     justify-content: center;
 }
+
+body,
+.title,
+.logo,
+.loader {
+    align-items: center;
+}
+
+/*============Conteúdo============*/
 
 .site__header {
     flex-direction: row;
@@ -104,10 +118,4 @@ h1 {
     height: 3.125rem;
     width: 3.125rem;
     animation: loading 1s ease-in-out infinite;
-}
-
-.title,
-.logo,
-.loader {
-    align-items: center;
 }
