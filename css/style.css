@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Beaufort';
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(../fonts/beaufort-for-lol/BeaufortforLOL-Heavy.ttf) format(truetype);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.site__status,
+.site__header,
+.constrution__img,
+h1,
+img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.site__header {
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.constrution__img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.blink {
+    animation: blink 1.5s steps(1, end) infinite;
+}
+
+img {
+    position: absolute;
+    max-width: 1239px;
+    height: 589px;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+    animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
