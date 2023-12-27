@@ -1,8 +1,8 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 
     .logo {
-        width: 18.125rem;
-        height: 18.125rem;
+        width: 11.125rem;
+        height: 11.125rem;
     }
 
     h1 {
@@ -21,11 +21,11 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
     .logo {
-        width: 18.125rem;
-        height: 18.125rem;
+        width: 11.125rem;
+        height: 11.125rem;
     }
 
     h1 {
@@ -44,11 +44,11 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
     
     .logo {
-        width: 18.125rem;
-        height: 18.125rem;
+        width: 11.125rem;
+        height: 11.125rem;
     }
 
     h1 {
@@ -67,11 +67,11 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     
     .logo {
-        width: 18.125rem;
-        height: 18.125rem;
+        width: 13.125rem;
+        height: 13.125rem;
     }
 
     h1 {
@@ -93,8 +93,8 @@
 @media (min-width: 1024px) {
     
     .logo {
-        width: 1490px;
-        height: 490px;
+        width: 15.125rem;
+        height: 15.125rem;
     }
 
     h1 {
@@ -113,11 +113,11 @@
     }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     
     .logo {
-        width: 18.125rem;
-        height: 18.125rem;
+        width: 20.125rem;
+        height: 20.125rem;
     }
 
     h1 {
