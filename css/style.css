@@ -23,40 +23,38 @@
     }
 }
 
-.blink {
-    animation: blink 2s infinite;
+@keyframes loading {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 body {
-    display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: black;
 }
 
-.site__status,
+body,
 .site__header,
+.content__container,
+.title,
+img,
 .constrution__img,
 h1,
-img,
-.loading__icon,
 .logo__container,
-.content__container {
+.logo,
+.loading__icon,
+.loader {
     display: flex;
     justify-content: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
 }
 
 .site__header {
-    justify-content: center;
     flex-direction: row;
     height: 100vh;
 }
@@ -66,26 +64,34 @@ img,
 }
 
 .title {
-    display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.blink {
+    animation: blink 2s infinite;
 }
 
 .constrution__img {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     position: relative;
     z-index: 1;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: white;
     align-items: flex-end;
     position: relative;
     z-index: 1;
+}
+
+.logo {
+    align-items: center;
+    width: 31.25rem;
+    height: 31.25rem;
 }
 
 .loading__icon {
@@ -93,21 +99,15 @@ h1 {
 }
 
 .loader {
-    display: flex;
     align-items: center;
-    justify-content: center;
     z-index: 2;
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
     animation: loading 1s ease-in-out infinite;
 }
 
-@keyframes loading {
-    0% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+.title,
+.logo,
+.loader {
+    align-items: center;
 }

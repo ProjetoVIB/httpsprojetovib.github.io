@@ -1,189 +1,160 @@
 @media (max-width: 320px) {
 
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
     .logo {
-        width: 290px;
-        height: 290px;
+        width: 18.125rem;
+        height: 18.125rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (max-width: 375px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
 
     .logo {
-        width: 290px;
-        height: 290px;
+        width: 18.125rem;
+        height: 18.125rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (max-width: 425px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
+    
     .logo {
-        width: 290px;
-        height: 290px;
+        width: 18.125rem;
+        height: 18.125rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (max-width: 768px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
+    
     .logo {
-        width: 290px;
-        height: 290px;
+        width: 18.125rem;
+        height: 18.125rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (min-width: 1024px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
+    
     .logo {
         width: 1490px;
         height: 490px;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (max-width: 1440px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
+    
     .logo {
-        width: 290px;
-        height: 290px;
+        width: 18.125rem;
+        height: 18.125rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
 
 @media (min-width: 2560px) {
-    .background {
-        width: 320px;
-        height: 500px;
-    }
-
+    
     .logo {
-        width: 400px;
-        height: 400px;
+        width: 25rem;
+        height: 25rem;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 1.438rem;
         text-align: center;
     }
 
     .constrution__img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
 
     .loader {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
 }
