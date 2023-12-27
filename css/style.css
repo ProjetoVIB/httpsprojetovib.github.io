@@ -77,6 +77,10 @@ body,
     flex-direction: column;
 }
 
+.title{
+    height: 0rem;
+}
+
 .title {
     align-items: center;
 }
