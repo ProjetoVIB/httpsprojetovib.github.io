@@ -25,6 +25,16 @@
     }
 }
 
+@keyframes color {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
 @keyframes loading {
     0% {
         transform: rotate(180deg);
@@ -107,6 +117,10 @@ h1 {
     align-items: flex-end;
     position: relative;
     z-index: 1;
+}
+
+.color{
+    animation: color 0.3s infinite;
 }
 
 .logo {
