@@ -126,7 +126,7 @@ h1 {
 }
 
 .color {
-    animation: color 0.3s infinite;
+    animation: color 0.1s infinite;
 }
 
 .logo {
@@ -149,4 +149,9 @@ h1 {
 
 .midias {
     gap: 2.5rem;
+}
+
+.youtube__icon:hover,
+.instagram__icon:hover {
+    transform: scale(1.1);
 }
