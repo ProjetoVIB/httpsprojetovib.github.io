@@ -1,3 +1,26 @@
+@media (min-width: 280px) {
+
+    .logo {
+        width: 11.125rem;
+        height: 11.125rem;
+    }
+
+    h1 {
+        font-size: 1.438rem;
+        text-align: center;
+    }
+
+    .constrution__img {
+        width: 5.625rem;
+        height: 5.625rem;
+    }
+
+    .loader {
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+}
+
 @media (min-width: 320px) {
 
     .logo {
@@ -75,7 +98,7 @@
     }
 
     h1 {
-        font-size: 1.438rem;
+        font-size: 2.438rem;
         text-align: center;
     }
 
@@ -98,7 +121,7 @@
     }
 
     h1 {
-        font-size: 1.438rem;
+        font-size: 2.438rem;
         text-align: center;
     }
 
